@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #a57878;
+
+  }
+  
+  h1{
+
+    font-size: 40px;
+    color: white;
+    margin-left: 40px;
+  }
+  .navbar {
+    background-color: #690000;
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container {
+    margin: 20px;
+    
+  }
+  
+  .movies-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 250px;
+
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #searchInput{
+    padding: 20px 30px;
+    border-radius: 0.9rem;
+    color: rgb(51, 6, 6);
+    font-size: larger;
+
+  }
+  
